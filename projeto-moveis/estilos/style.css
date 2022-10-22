@@ -70,6 +70,8 @@ main > section > img {
 
 footer {
     background-color: var(--cor3);
+    color: var(--cor0);
     width: 100vw;
     margin: auto;
+    text-align: center;
 }
