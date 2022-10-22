@@ -23,7 +23,7 @@ header {
 
 span.material-symbols-outlined {
     background-color: var(--cor2);
-    color: white;
+    color: var(--cor0);
     display: block;
     text-align: center;
     padding: 8px;
@@ -55,4 +55,21 @@ menu > ul > li > a {
 
 menu > ul > li > a:hover {
     background-color: var(--cor2);
+}
+
+main {
+    background-color: var(--cor0);
+    width: 100vw;
+    margin: auto;
+}
+
+main > section > img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background-color: var(--cor3);
+    width: 100vw;
+    margin: auto;
 }

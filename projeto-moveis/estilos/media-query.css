@@ -16,13 +16,21 @@ Grandes telas: acima de 1200px
 
     menu {
         display: block;
+        
+        background-color: var(--cor3);
+        border-top: 1px solid var(--cor0);
+        
     }
 
     menu > ul > li {
         display: inline-block;
     }
 
+    menu > ul > li > a {
+        border-top: none;
+    }
+
     main {
-        width: 768px;
+        width: 1200px;
     }
 }
