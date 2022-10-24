@@ -61,7 +61,7 @@ menu > ul > li > a:hover {
 
 main {
     background-color: var(--cor0);
-    width: 97vw;
+    width: 96vw;
     margin: auto;
 }
 
@@ -74,7 +74,8 @@ main > section > img {
 footer {
     background-color: var(--cor3);
     color: var(--cor0);
-    width: 100vw;
+    /*width: 100vw;*/
     margin: auto;
     text-align: center;
+    padding: 10px 0px;
 }
