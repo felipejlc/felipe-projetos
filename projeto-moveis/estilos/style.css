@@ -12,6 +12,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: var(--fonte-padrão);
 }
 
 header {
@@ -61,7 +62,7 @@ menu > ul > li > a:hover {
 
 main {
     background-color: var(--cor0);
-    width: 100vw;
+    /*width: 96vw;*/
     margin: auto;
 }
 
