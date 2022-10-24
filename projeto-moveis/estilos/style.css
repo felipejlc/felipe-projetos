@@ -76,6 +76,24 @@ div#destaque02 {
     display: none;
 }
 
+
+
+article > h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0px;
+    color: var(--cor3);
+}
+
+article > p {
+    text-align: center;
+    color: var(--cor3);
+    margin-bottom: 20px;
+}
+
+
+
+
 footer {
     background-color: var(--cor3);
     color: var(--cor0);
