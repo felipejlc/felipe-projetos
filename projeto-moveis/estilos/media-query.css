@@ -46,8 +46,14 @@ Grandes telas: acima de 1200px
     }
 
     article > p {
-        width: 900px;
+        width: 1000px;
         margin: auto;
         margin-bottom: 20px;    
+    }
+
+    article > h2 {
+        width: 900px;
+        margin: auto;
+        margin-bottom: 20px;
     }
 }
