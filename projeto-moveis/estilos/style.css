@@ -61,11 +61,12 @@ menu > ul > li > a:hover {
 
 main {
     background-color: var(--cor0);
-    width: 100vw;
+    width: 97vw;
     margin: auto;
 }
 
 main > section > img {
+    width: 100%;
     display: block;
     margin: auto;
 }
