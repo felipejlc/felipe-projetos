@@ -22,8 +22,9 @@ header {
 }
 
 span.material-symbols-outlined {
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     color: var(--cor0);
+    border-top: 1px solid var(--cor0);
     display: block;
     text-align: center;
     padding: 8px;
@@ -54,7 +55,8 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
-    background-color: var(--cor2);
+    background-color: var(--cor0);
+    color: var(--cor3);
 }
 
 main {
