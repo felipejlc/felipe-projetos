@@ -61,7 +61,7 @@ menu > ul > li > a:hover {
 }
 
 main {
-    background-color: var(--cor0);
+    /*background-color: var(--cor0);*/
     /*width: 96vw;*/
     margin: auto;
 }
@@ -70,6 +70,10 @@ main > section > img {
     width: 100%;
     display: block;
     margin: auto;
+}
+
+div#destaque02 {
+    display: none;
 }
 
 footer {
