@@ -28,12 +28,6 @@
     </nav>
     <main>
         <section>
-            <!--
-                <picture>
-                <source media="(max-width: 700px)" srcset="imagens/quarto_pq.jpg">
-                <img src="imagens/quarto.jpg" alt="Quarto planejado">
-            </picture>
-            -->
             <img id="destaque01" src="imagens/quarto.jpg" alt="Móveis planejados - quarto">
 
             <div id="destaque02">
@@ -45,16 +39,15 @@
             <div id="destaque02">
                 <img src="imagens/quarto_pq.jpg" alt="Quarto número 3 em destaque">
             </div>
-            
         </section>
         
-            <article>
-                <h1>Móveis Planejados e Móveis Sob-Medida</h1>
-                <p>
-                    A Delta7, está localizada em Curitiba, Paraná, atuando no setor de <strong><u>móveis planejados</u></strong> e <strong><u>móveis sob-medida</u></strong> para <strong>cozinha planejada, dormitórios planejados, banheiro planejado, área de serviço planejada, lavanderia planejada, móveis para home office,</strong> lojas e <strong>closet planejado,</strong> buscando sempre pela qualidade, excelência e design dos seus produtos, além do compromisso com a satisfação e realização de nosso consumidor, o que leva a marca há um grande reconhecimento.
-                </p>
-                <h2>Móveis Planejados com qualidade e pontualidade. Solicite orçamento e compare, garantimos o melhor preço.</h2>    
-            </article>
+        <article>
+            <h1>Móveis Planejados e Móveis Sob-Medida</h1>
+            <p>
+                A Delta7, está localizada em Curitiba, Paraná, atuando no setor de <strong><u>móveis planejados</u></strong> e <strong><u>móveis sob-medida</u></strong> para <strong>cozinha planejada, dormitórios planejados, banheiro planejado, área de serviço planejada, lavanderia planejada, móveis para home office,</strong> lojas e <strong>closet planejado,</strong> buscando sempre pela qualidade, excelência e design dos seus produtos, além do compromisso com a satisfação e realização de nosso consumidor, o que leva a marca há um grande reconhecimento.
+            </p>
+            <h2>Móveis Planejados com qualidade e pontualidade. Solicite orçamento e compare, garantimos o melhor preço.</h2>    
+        </article>
 
         <section>
             <div class="orc-whats">
@@ -69,19 +62,35 @@
                         <h1>(41) 9.9999-9999</h1>
                     </div>
                 </div>
-                <!--
-                <h2><em>Solicite um orçamento via Whatsapp</em></h2>
-                <hr>
-                <img src="imagens/whatsapp30px.png" alt="Logo Whatsapp">
-                <h1>(41) 9.9999-9999</h1>
-                -->
             </div>
         </section>
 
-
-        <section>
+        <section id="form-orcamento">
             <h2>Solicite um orçamento</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="iest">Estado:</label>
+                    
+                    <select name="estado" id="iest">
+                        
+                        <option value="" selected>--- Escolha ---</option>
+                        <optgroup label="Região Sudeste">
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                        </optgroup>
+        
+                        <optgroup label="Região Nordeste">
+                            <option value="RN">Rio Grando do Norte</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="MA">Maranhão</option>
+                        </optgroup>
+        
+                    </select>
+                </p>
+            </form>
         </section>
+
         <section>
             <p>Imagem com telefone para contato</p>
         </section>
