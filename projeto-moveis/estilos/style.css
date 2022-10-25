@@ -106,10 +106,21 @@ section.whats > article > h2 {
     margin-bottom: 1px;
     margin-top: 30px;
 }
+
 section.whats > article > h1 {
     margin-top: 1px;
     margin-bottom: 30px;
+    background-color: lightpink;
+    display: block;    
 }
+
+section.whats > article > h1 > img {
+    margin: 3px 0px 0px 0px;
+    /*display: inline-block;*/
+    float: left;
+    background-color: rebeccapurple;
+}
+
 
  
 
