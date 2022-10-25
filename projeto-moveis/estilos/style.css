@@ -96,10 +96,6 @@ article > h2 {
     font-size: 1.2em;
 }
 
-
-
-
-
 div.orc-whats {
     /*background-color: lightcoral;*/
     display: block;
@@ -130,7 +126,6 @@ div.img-fone-orc-whats {
     padding-top: 3px;
 }
 
-
 div.img-orc-whats {
     /*background-color: #1b473e;*/
     
@@ -139,24 +134,11 @@ div.img-orc-whats {
     float: left;
 }
 
-
 div.fone-orc-whats {
     /*background-color: #2a3030;*/
     padding-top: 5px;
-    
-    display: block;
-    
+    display: block;  
 }
-
-
-
- 
-
-
-
-
-
-
 
 footer {
     background-color: var(--cor3);
