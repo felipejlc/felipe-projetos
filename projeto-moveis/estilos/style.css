@@ -153,6 +153,7 @@ section#form-orcamento {
     height: 400px;
     display: block;
     background-color: var(--cor0);
+    
 }
 
 section#form-orcamento > h2 {
@@ -165,7 +166,40 @@ section#form-orcamento > h2 {
 section#img-form-orcamento {
     background-color: lightcoral;
     height: 200px;
-    display: none;
+    /*display: none;*/
+}
+
+main > section > form > p > select {
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+    /*padding: 5px;*/
+    transform: translateY(-12px);
+}
+
+main > section > form > p > input {
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+    /*padding: 5px;*/
+    transform: translateY(-12px);
+}
+
+main > section > form > p > textarea {
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+    /*padding: 5px;*/
+    transform: translateY(-12px);
 }
 
 
