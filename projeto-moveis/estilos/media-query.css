@@ -56,4 +56,43 @@ Grandes telas: acima de 1200px
         margin: auto;
         margin-bottom: 20px;
     }
+
+
+
+
+
+
+    
+
+
+    section#form-orcamento {
+        width: 50%;
+        /*height: 400px;*/
+        float: left;
+        display: block;
+        /*background-color: var(--cor0);*/
+    }
+    
+    /*section#form-orcamento > h2 {
+        color: var(--cor3);
+        text-align: center;
+        padding: 10px 0px;
+        background-color: #244f47;
+    }*/
+    
+    section#img-form-orcamento {
+        background-color: lightcoral;
+        height: 400px;
+        float: right;
+        display: block;
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
 }
