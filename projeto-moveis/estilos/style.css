@@ -164,9 +164,8 @@ section#form-orcamento > h2 {
 }
 
 section#img-form-orcamento {
-    /*background-color: lightcoral;*/
+    background-color: lightcoral;
     height: 500px;
-    /*display: none;*/
 }
 
 main > section > div > form > p > select, input, textarea {
@@ -182,10 +181,23 @@ main > section > div > form > p > select, input, textarea {
     /*transform: translateY(-12px);*/
 }
 
+main > section > div > form > p > input.send {
+    width: 40%;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+main > section > div > form > p > input.send:hover {
+    border: 1px solid white;
+}
+
 div.formulario {
     width: 425px;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 
