@@ -29,7 +29,6 @@
     <main>
         <section>
             <img id="destaque01" src="imagens/quarto.jpg" alt="Móveis planejados - quarto">
-
             <div id="destaque02">
                 <img src="imagens/quarto_pq.jpg" alt="Quarto número 1 em destaque">
             </div>
@@ -40,7 +39,6 @@
                 <img src="imagens/quarto_pq.jpg" alt="Quarto número 3 em destaque">
             </div>
         </section>
-        
         <article>
             <h1>Móveis Planejados e Móveis Sob-Medida</h1>
             <p>
@@ -48,7 +46,6 @@
             </p>
             <h2>Móveis Planejados com qualidade e pontualidade. Solicite orçamento e compare, garantimos o melhor preço.</h2>    
         </article>
-
         <section>
             <div class="orc-whats">
                 <div class="titulo-orc-whats">
@@ -64,16 +61,13 @@
                 </div>
             </div>
         </section>
-
         <section id="form-orcamento">
             <h2>Solicite um orçamento</h2>
             <div class="formulario">
                 <form action="#" method="post" autocomplete="on">
                     <p>
                         <select name="conheceu" id="iconheceu">
-                
-                            <option value="" selected>-- Como conheceu a Delta7? --</option>
-                            <!--<optgroup label="Como conheceu a Delta7?">-->
+                                <option value="" selected>-- Como conheceu a Delta7? --</option>
                                 <option value="GOOGLE">Pesquisa no Google</option>
                                 <option value="FACE">Anúncio Facebook</option>
                                 <option value="AMIGO">Indicação de Amigo</option>
@@ -81,11 +75,10 @@
                                 <option value="RADIO">Rádio</option>
                                 <option value="TV">TV</option>
                                 <option value="OUTROS">Outros</option>
-                
                         </select>
                     </p>
                     <p>
-                        <input type="text" name="nome" id="inome" placeholder="Nome">
+                        <input type="text" name="nome" id="inome" placeholder="Nome" autocomplete="name" required>
                     </p>
                     <p>
                         <input type="email" name="email" id="iemail" placeholder="E-mail" autocomplete="email" required>
@@ -105,7 +98,7 @@
                         <input class="carquivo" type="file" name="arquivo" id="iarquivo">
                     </p>
                     <p>
-                        <textarea class="cmsg" name="msg" id="imsg" placeholder="Mensagem" cols="28" rows="8"></textarea>
+                        <textarea class="cmsg" name="msg" id="imsg" placeholder="Mensagem" cols="28" rows="8" required></textarea>
                     </p>
                     <p>
                         <input class="send" type="submit" value="Enviar">

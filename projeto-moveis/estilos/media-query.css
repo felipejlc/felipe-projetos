@@ -41,8 +41,6 @@ Grandes telas: acima de 1200px
         display: inline-block;
         width: 363px;
         height: 360px;
-        /*background-color: rgb(70, 124, 124);
-       border: 1px solid black;*/
     }
 
     article > p {
@@ -57,28 +55,11 @@ Grandes telas: acima de 1200px
         margin-bottom: 20px;
     }
 
-
-
-
-
-
-    
-
-
     section#form-orcamento {
         width: 50%;
-        /*height: 400px;*/
         float: left;
         display: block;
-        /*background-color: var(--cor0);*/
     }
-    
-    /*section#form-orcamento > h2 {
-        color: var(--cor3);
-        text-align: center;
-        padding: 10px 0px;
-        background-color: #244f47;
-    }*/
     
     section#img-form-orcamento {
         background-color: lightcoral;
@@ -87,12 +68,4 @@ Grandes telas: acima de 1200px
         display: block;
         width: 50%;
     }
-
-
-
-
-
-
-
-
 }
