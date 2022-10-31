@@ -85,11 +85,6 @@ Grandes telas: acima de 1200px
         display: none;
     }
 
-    div.pc {
-        display: inline-block;
-        width: 363px;
-        height: 360px;
-        
-    }
+    
     
 }
