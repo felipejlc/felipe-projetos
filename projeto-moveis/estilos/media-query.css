@@ -70,4 +70,25 @@ Grandes telas: acima de 1200px
     }
 
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    main > section#nossosProjetos > img.phone {
+        display: none;
+    }
+
+    div#destaque02 {
+        display: inline-block;
+        width: 363px;
+        height: 360px;
+    }
+    
 }
