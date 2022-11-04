@@ -300,8 +300,32 @@ section.imagem {
 
 
 
+ section#rodape {
+    
+    background-color: #262b2b;
+    height: 555px;
+ }
 
+ section#rodape > h3 {
+    
+    color: white;
+    width: 180px;
+    /*background-color: lightgoldenrodyellow;*/
+    padding: 40px 0px 10px 40px;
+    
+ }
 
+ section#rodape > ul > li {
+    color: white;
+    width: 200px;
+    /*background-color: lightpink;*/
+    margin: 12px 0px 0px 40px;
+ }
+
+ section#rodape > ul > li > a {
+    color: white;
+    text-decoration: none;
+ }
 
 
 
