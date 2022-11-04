@@ -239,40 +239,49 @@ section.imagem {
  }
 
  section.imagem > h2 {
-    display: inline-block;
+    display: block;
     padding: 5px;
     background-color: #00000063;
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    width: 400px;
-    margin: 80px 0px 0px 50px;
+    /*width: 400px;*/
+    padding-top: 60px;
+    
  }
 
  section.imagem > p {
-    display: inline-block;
+    display: block;
     padding: 5px;
     background-color: #00000063;
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    width: 400px;
-    margin: 5px 0px 0px 50px;
+    width: 90%;
+    margin: auto;
+    /*margin: 5px 0px 0px 50px;*/
  }
 
  section.imagem > p.botao {
-    display: inline-block;
+    display: block;
     padding: 10px;
     background-color: var(--cor1);
     text-shadow: 1px 1px 0px black;
     border-radius: 50px;
-    width: 250px;
+    width: 50%;
     height: 20px;
-    margin: 5px 0px 0px 120px;
+    /*margin: 5px 0px 0px 120px;*/
+    margin: auto;
  }
+
+ section.imagem > p.botao:hover {
+    border: 1px solid white;
+}
 
  section.imagem > p.botao > a {
     text-decoration: none;
     color: white;
 }
+
+
 
  section#img01 {
     background-image: url('../imagens/img-originais/closed-original.jpg');
