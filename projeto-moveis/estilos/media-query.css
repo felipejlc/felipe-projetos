@@ -69,4 +69,12 @@ Grandes telas: acima de 1200px
         width: 50%;
     }
 
+    section.imagem > p {
+        width: 60%;
+    }
+    
+    section.imagem > p.botao {
+        width: 25%;
+    }
+    
 }

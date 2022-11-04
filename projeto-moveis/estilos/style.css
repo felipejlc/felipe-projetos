@@ -231,6 +231,8 @@ section#nossosProjetos > p {
 
 section.imagem {
     background-color: #313131;
+    
+
     color: white;
     box-shadow: inset 6px 6px 13px 0px #000000a6;
     background-size: cover;
@@ -241,7 +243,7 @@ section.imagem {
  section.imagem > h2 {
     display: block;
     padding: 5px;
-    background-color: #00000063;
+    /*background-color: #00000063;*/
     text-shadow: 1px 1px 0px black;
     text-align: center;
     /*width: 400px;*/
@@ -251,11 +253,11 @@ section.imagem {
 
  section.imagem > p {
     display: block;
-    padding: 5px;
-    background-color: #00000063;
+    padding: 15px;
+    /*background-color: #00000063;*/
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    width: 90%;
+    /*width: 90%;*/
     margin: auto;
     /*margin: 5px 0px 0px 50px;*/
  }
@@ -270,6 +272,7 @@ section.imagem {
     height: 20px;
     /*margin: 5px 0px 0px 120px;*/
     margin: auto;
+    cursor: pointer;
  }
 
  section.imagem > p.botao:hover {
