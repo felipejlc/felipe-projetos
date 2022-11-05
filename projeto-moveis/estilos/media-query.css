@@ -33,6 +33,7 @@ Grandes telas: acima de 1200px
         width: 1100px;
     }
 
+    /* REVISAR PARA TIRAR */
     main > section > img {
         display: none;
     }
@@ -42,6 +43,8 @@ Grandes telas: acima de 1200px
         width: 363px;
         height: 360px;
     }
+    /* REVISAR PARA TIRAR */
+    
 
     article > p {
         width: 1000px;
