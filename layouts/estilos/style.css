@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #90b1a8; /*Verde claro*/
+    --cor1: #244f47; /*Verde médio*/
+    --cor2: #1b473e; /*Verde escuro*/
+    --cor3: #2a3030; /*Cinza escuro*/
+
+    --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-padrão);
+}
+
+header#top {
+    height: 200px;
+    background-color: red;
+    /*centraliza a div no meio, tanto na altura quanto na largura*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*centraliza a div no meio, tanto na altura quanto na largura*/
+}
+
+header#top > div.logo {
+    width: 50%;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+}
+
+nav#menu {
+    height: 200px;
+    background-color: yellow;
+}
+
+main#middle {
+    height: 400px;
+    background-color: blue;
+}
+
+section#um {
+    height: 100px;
+    background-color: black;
+}
+
+section#dois {
+    height: 100px;
+    background-color: gray;
+}
+
+section#tres {
+    height: 100px;
+    background-color: lightgray;
+}
+
+footer#bottom {
+    height: 200px;
+    background-color: pink;
+}
