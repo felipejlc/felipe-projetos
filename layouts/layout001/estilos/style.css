@@ -39,29 +39,27 @@ nav#menu {
 main#middle {
     height: 400px;
     background-color: blue;
-    display: flex; /*Deixa uma div ao lado da outra*/
+    display: flex;  /*Deixa uma div ao lado da outra*/
     justify-content: center; /*centraliza as divs horizontalmente*/
     /*align-items: center;*/ /*centraliza as divs verticalmente*/
 }
 
 section#um {
-    height: 100px;
+    
+    height: 200px;
     width: 50%;
     background-color: black;
 }
 
 section#dois {
+    
     height: 200px;
     width: 50%;
     background-color: gray;
 }
-/*
-section#tres {
-    height: 300px;
-    width: 34%;
-    background-color: lightgray;
-}
-*/
+
+
+
 
 footer#bottom {
     height: 150px;
