@@ -217,20 +217,6 @@ section#nossosProjetos > p {
     margin-bottom: 12px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 section.imagem {
     background-color: #313131;
     color: white;
@@ -238,42 +224,33 @@ section.imagem {
     background-size: cover;
     background-attachment: fixed;
     height: 350px;
- }
+}
 
  section.imagem > h2 {
     display: block;
     padding: 5px;
-    /*background-color: #00000063;*/
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    /*width: 400px;*/
     padding-top: 60px;
-    
- }
+}
 
  section.imagem > h4 {
     display: block;
     padding: 5px;
-    /*background-color: #00000063;*/
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    /*width: 400px;*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 80px;
     font-size: 3em;
-    
- }
+}
 
  section.imagem > p {
     display: block;
     padding: 15px;
-    /*background-color: #00000063;*/
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    /*width: 90%;*/
     margin: auto;
-    /*margin: 5px 0px 0px 50px;*/
- }
+}
 
  section.imagem > p.botao {
     display: block;
@@ -283,10 +260,9 @@ section.imagem {
     border-radius: 50px;
     width: 50%;
     height: 20px;
-    /*margin: 5px 0px 0px 120px;*/
     margin: auto;
     cursor: pointer;
- }
+}
 
  section.imagem > p.botao:hover {
     border: 1px solid white;
@@ -300,52 +276,29 @@ section.imagem {
 section#img01 {
     background-image: url('../imagens/closed-escuro.jpg');
     background-position: center center;
- }
+}
 
-
-
-
-
-
-
-
-
-
- section#rodape {
-    
+section#rodape {
     background-color: #262b2b;
     height: 555px;
- }
+}
 
- section#rodape > h3 {
-    
+section#rodape > h3 {
     color: white;
     width: 180px;
-    /*background-color: lightgoldenrodyellow;*/
     padding: 40px 0px 10px 40px;
-    
- }
+}
 
- section#rodape > ul > li {
+section#rodape > ul > li {
     color: white;
     width: 200px;
-    /*background-color: lightpink;*/
     margin: 12px 0px 0px 40px;
- }
+}
 
- section#rodape > ul > li > a {
+section#rodape > ul > li > a {
     color: white;
     text-decoration: none;
- }
-
-
-
-
-
-
-
-
-
+}
 
 footer {
     background-color: var(--cor3);
