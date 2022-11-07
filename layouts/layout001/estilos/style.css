@@ -46,21 +46,22 @@ main#middle {
 
 section#um {
     height: 100px;
-    width: 34%;
+    width: 50%;
     background-color: black;
 }
 
 section#dois {
     height: 200px;
-    width: 34%;
+    width: 50%;
     background-color: gray;
 }
-
+/*
 section#tres {
     height: 300px;
     width: 34%;
     background-color: lightgray;
 }
+*/
 
 footer#bottom {
     height: 150px;
