@@ -32,31 +32,37 @@ header#top > div.logo {
 }
 
 nav#menu {
-    height: 200px;
+    height: 50px;
     background-color: yellow;
 }
 
 main#middle {
     height: 400px;
     background-color: blue;
+    display: flex; /*Deixa uma div ao lado da outra*/
+    justify-content: center; /*centraliza as divs horizontalmente*/
+    /*align-items: center;*/ /*centraliza as divs verticalmente*/
 }
 
 section#um {
     height: 100px;
+    width: 34%;
     background-color: black;
 }
 
 section#dois {
-    height: 100px;
+    height: 200px;
+    width: 34%;
     background-color: gray;
 }
 
 section#tres {
-    height: 100px;
+    height: 300px;
+    width: 34%;
     background-color: lightgray;
 }
 
 footer#bottom {
-    height: 200px;
+    height: 150px;
     background-color: pink;
 }
