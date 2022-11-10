@@ -29,6 +29,9 @@
  <a href="https://felipejlc.github.io/felipe-projetos/layouts/tela-login/index.html" target="_blank"> Tela de Login</a>
  <br>
  <br>
+ <a href="https://felipejlc.github.io/felipe-projetos/layouts/tela-cadastro-conta/index.html" target="_blank"> Tela de Cadastro de Conta</a>
+ <br>
+ <br>
  <a href="https://felipejlc.github.io/felipe-projetos/layouts/tela-cadastro/index.html" target="_blank"> Tela de Cadastro </a>
 
 
