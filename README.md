@@ -23,7 +23,10 @@
  <a href="https://felipejlc.github.io/felipe-projetos/layouts/menu-responsivo/index.html" target="_blank"> Menu responsivo </a>
  <br>
  <br>
- <a href="https://felipejlc.github.io/felipe-projetos/layouts/tela-login-dark/index.html" target="_blank"> Tela de Login </a>
+ <a href="https://felipejlc.github.io/felipe-projetos/layouts/tela-login-dark/index.html" target="_blank"> Tela de Login Dark</a>
+ <br>
+ <br>
+ <a href="https://felipejlc.github.io/felipe-projetos/layouts/tela-login/index.html" target="_blank"> Tela de Login</a>
  <br>
  <br>
  <a href="https://felipejlc.github.io/felipe-projetos/layouts/tela-cadastro/index.html" target="_blank"> Tela de Cadastro </a>
