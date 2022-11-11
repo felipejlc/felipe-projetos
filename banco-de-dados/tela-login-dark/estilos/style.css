@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body {
+    background-color: #1f2323;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden; /*esconder barra de rolagem*/
+}
+
+.area-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2a3030;
+    border-radius: 10px;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
+
+.login:hover {
+    border: 1px solid #499081;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column; /*para ficar um input em cima do outro*/
+    width: 100%;
+}
+
+.login input {
+    margin-top: 10px;
+    background-color: #1f2323;
+    color: #cbd0f7;
+    padding-left: 10px;
+    border: none;
+    height: 45px;
+    outline: none; /*remove as bordas ao clicar no input*/
+    border-radius: 8px;
+}
+
+.login img {
+    width: 100px;
+    height: auto;
+}
+
+/*estilizar o placeholder dos inputs*/
+input::placeholder {
+    color: #cbd0f7;
+    font-size: 14px;
+}
+/*estilizar o placeholder dos inputs*/
+
+/*estilizar o botão do formulário*/
+form [type="submit"] {
+    display: block;
+    background-color: #499081;
+    font-size: 20px;
+    text-transform: uppercase; /*deixa a palavra toda com letra maiúscula*/
+    font-weight: bold; /*deixa o texto em negrito*/
+    cursor: pointer;
+}
+/*estilizar o botão do formulário*/
+
+p {
+    color: #cbd0f7;
+}
+
+a {
+    color: #499081;
+    text-decoration: none;
+    margin-left: 6px;
+}
