@@ -33,6 +33,9 @@
  <br>
  <br>
  <a href="https://felipejlc.github.io/felipe-projetos/layouts/tela-cadastro/index.html" target="_blank"> Tela de Cadastro </a>
+ <br>
+ <br>
+ <a href="https://felipejlc.github.io/felipe-projetos/layouts/e-mail/index.html" target="_blank"> Formulário de e-mail </a>
 
 
 
