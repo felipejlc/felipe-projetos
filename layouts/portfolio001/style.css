@@ -17,6 +17,10 @@
     --font-action: "Mulish", serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hamburguer {
     /* background-color: red; */
     width: 2rem;
@@ -180,6 +184,7 @@ header {
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 150;
 }
 
 .show-menu .sidebar {
