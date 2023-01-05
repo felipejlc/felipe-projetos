@@ -8,8 +8,9 @@ document.querySelector("#layout-sim").addEventListener("change", atualizaPreco)
 document.querySelector("#layout-nao").addEventListener("change", atualizaPreco)
 document.querySelector("#prazo").addEventListener("change", function () {
 	const prazo = document.querySelector("#prazo").value
-	document.querySelector("label [for=prazo]").innerHTML = `Prazo: ${prazo} semanas`
-}  atualizaPreco)
+	document.querySelector("label[for=prazo]").innerHTML = `Prazo: ${prazo} semanas`
+    atualizaPreco()
+})
 
 function atualizaPreco(){
 	const qtde = document.querySelector("#qtde").value
