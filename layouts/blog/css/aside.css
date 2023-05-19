@@ -44,7 +44,7 @@ aside .box.-box-tag .tags li{
     float: left;
 }
 
-aside .bos.-box-tag .tags li a{
+aside .box.-box-tag .tags li a{
     display: block;
     background-color: #000;
     color: #fff;
