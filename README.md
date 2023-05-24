@@ -45,3 +45,6 @@
  <br>
  <br>
  <a href="https://felipejlc.github.io/felipe-projetos/projeto-carros/index.php" target="_blank"> site para carros </a>
+ <br>
+ <br>
+ <a href="https://felipejlc.github.io/felipe-projetos/layouts/blog/index.html" target="_blank"> Meu blog </a>
