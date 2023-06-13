@@ -1,0 +1,16 @@
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: bisque; /*APAGAR*/
+}
+
+.elemento {
+    width: 1300px;
+    height: 500px;
+    background-color: blue; /*APAGAR*/
+    margin-top: 10px;
+}
