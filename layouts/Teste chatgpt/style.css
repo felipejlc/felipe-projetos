@@ -1,0 +1,86 @@
+/* style.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos específicos para cada página */
+  /* Home */
+  h1 {
+    font-size: 28px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  /* Portfólio */
+  h2 {
+    font-size: 24px;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Blog */
+  .blog-post {
+    margin-bottom: 20px;
+  }
+  
+  .blog-post h3 {
+    font-size: 20px;
+  }
+  
+  .blog-post p {
+    font-size: 16px;
+  }
+  
+  /* Contato */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  
+  input, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
